@@ -19,7 +19,7 @@
 
 ## Description
 
-This C# MVC web application was built for Claire to help her manage the stylists and clients at her salon. The functionality of the application will allow her to add stylists and the clients associated to them to a database. Then view the clients for each of her stylists on separate organized detail pages.
+This C# MVC web application was built to help Claire manage the stylists and clients at her salon. The application will allow her to add stylists and their associated clients to a database. Then view the clients for each of her stylists on separate organized pages.
 
 ## Diagram of the One-To-Many relationship used in this project's database
 
