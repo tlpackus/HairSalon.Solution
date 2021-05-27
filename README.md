@@ -50,7 +50,7 @@ This C# MVC web application was built to help Claire manage the stylists and cli
 * Click _Start Import_
 * In the _Navigator_ > _Schemas_ tab, right click and select _Refresh All_. The new database will appear.
 
-* _Back in Terminal, you should still be in the `HairSalon` directory. From that directory run command `touch appsettings.json` to create a new file._
+* _Back in Terminal, you should still be in the `HairSalon` directory. From that directory run command `$ touch appsettings.json` to create a new file._
 * _Lastly, input the following script (**note the name of the database below needs to match the name of the database you created (e.g. hair_salon_database_test)**)_
 ![Image of appsettings.json example](./HairSalon/wwwroot/img/appsettings.json_example.png)
 * _You can now run $ dotnet run from the HairSalon Directory to launch, view and use the app in the google browser_
