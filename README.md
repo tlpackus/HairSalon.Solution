@@ -40,6 +40,22 @@ This C# MVC web application was built to help Claire manage the stylists and cli
 * _Retrieve and install packages listed in the .csproj files with the command `$ dotnet restore`_
 * _Create internal content for build with the command `$ dotnet build`_
 
+**Instructions for re-creating the MySQL Database using `HairSalon\theron_packus.sql`**
+* Open MySQL Workbench (If you don't already have it, it can be downloaded here: https://dev.mysql.com/downloads/file/?id=484391)
+* In MySQL Workbench, navigate to the _Administration_ window and click _Data Import/Restore_
+* In the _Data Import_ screen, select _Import from Self-Contained File_, click the 3 dots on the right, and navigate to _HairSalon.Solution\theron_packus.sql_
+* Under _Default Scheme to be Import To_ select the _New_ button
+  * Enter a name for your database (e.g. hair_salon_database_test)
+  * Click _Ok_
+* Click _Start Import_
+* In the _Navigator_ > _Schemas_ tab, right click and select _Refresh All_. The new database will appear.
+
+* _Back in Terminal, you should still be in the `HairSalon` directory. From that directory run command `touch appsettings.json` to create a new file._
+* _Lastly, input the following script (**note the name of the database below needs to match the name of the database you created (e.g. hair_salon_database_test)**)_
+![Image of appsettings.json example](./HairSalon/wwwroot/img/appsettings.json_example.png)
+* _You can now run $ dotnet run from the HairSalon Directory to launch, view and use the app in the google browser_
+
+
 ## Known Bugs
 
 - No known bugs so please lets me know if you encounter any through the email I provided below.
